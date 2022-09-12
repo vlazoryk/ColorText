@@ -33,6 +33,15 @@ void SetColor(ConsoleColor text, ConsoleColor background)
     SetConsoleTextAttribute(Console, (WORD)((background << 4) | text));
 }
 
+
+
+
+
+
+
+
+
+
 int main()
 {
   //  setlocale(LC_CTYPE, "ukr"); // виклик функції локалізації 
